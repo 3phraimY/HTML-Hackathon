@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Litman Iceberg</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Litman Interactive Iceberg</h1>
+      <button id="iceberg-top">
+        <img src="/assets/iceberg-top.jpg" />
+        <div id="iceberg-top-text" class="expandable-text">
+          this is the top iceberg
+        </div>
+      </button>
+      <button id="iceberg-top-middle">
+        <img src="/assets/iceberg-top-middle.jpg" />
+        <div id="iceberg-top-middle-text" class="expandable-text">
+          this is the top middle iceberg
+        </div>
+      </button>
+      <button id="iceberg-bottom-middle">
+        <img src="/assets/iceberg-bottom-middle.jpg" />
+        <div id="iceberg-bottom-middle-text" class="expandable-text">
+          <table>
+            <tr>
+              <th>
+                <i>The Travel Channel: Big Beef Paradise</i>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <div style="padding: 75% 0 0 0; position: relative">
+                  <iframe
+                    src="https://player.vimeo.com/video/34129180?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                    style="
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 100%;
+                    "
+                    title="Big Beef Paradise"
+                  ></iframe>
+                </div>
+                <script src="https://player.vimeo.com/api/player.js"></script>
+              </td>
+            </tr>
+
+            <tr></tr>
+          </table>
+        </div>
+      </button>
+      <button id="iceberg-bottom">
+        <img src="/assets/iceberg-bottom.jpg" />
+        <div id="iceberg-bottom-text" class="expandable-text">
+          this is the bottom iceberg
+        </div>
+      </button>
+    </div>
+    <script type="module" src="/main.js" defer></script>
+  </body>
+</html>
